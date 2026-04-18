@@ -7,7 +7,17 @@ Pixel based classification of satellite imagery
 - Ensemble classifier for Flood Inundation Mapping - classifies a pixel as water if 2 or more than 2 of the above classifiers classify a pixel as water
 - Mode filter used to remove individually wrongly classified pixels
 - Classification accuracy to measure goodness of each model
+Satellite Image Classification for Flood Inundation Mapping
 
+This project performs pixel-based classification of satellite imagery using multiple machine learning models.
+
+## Improvements
+- Added detailed explanation of ML models
+- Included performance comparison of classifiers
+- Enhanced documentation and readability
+
+## Credits
+This project is forked from [original repo link] and further improved.
 Outcomes of the best classifier (Multi Layer Perceptron) are as shown below:
 
 To compile and run SatelliteClassification.java, you need weka.jar that you can download from the Weka website.
